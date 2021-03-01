@@ -509,3 +509,15 @@ function howMuchILoveYou(nbPetals) {
   const love = ['not at all', 'I love you', 'a little', 'a lot', 'passionately', 'madly']
   return love[nbPetals % 6]
 }
+
+// Well of Ideas - Easy Version
+function well(x){
+  let good = x.filter((x)=>{return x==='good'})
+  if(good.length > 2){
+    return 'I smell a series!'
+  }else if(good.length > 0){
+    return 'Publish!'
+  }else{
+    return 'Fail!'
+  }
+}
