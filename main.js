@@ -426,3 +426,11 @@ var findAverage = function (nums) {
 function printArray(array){
   return array.join(',')
 }
+
+// SpeedCode #2 - Array Madness
+function arrayMadness(a, b) {
+  return a.reduce((acc,c)=>{
+    return acc + c*c},0) >
+    b.reduce((x,y)=>{
+    return x + y*y*y},0)
+}
