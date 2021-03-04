@@ -413,3 +413,11 @@ function divisibleBy(numbers, divisor){
   })
 return arr
 }
+
+// Grasshopper - Array Mean
+var findAverage = function (nums) {
+  let total = nums.reduce((acc,c)=>{
+    return c + acc
+  },0)
+  return total / nums.length
+}
