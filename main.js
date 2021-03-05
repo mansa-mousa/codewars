@@ -379,3 +379,14 @@ function grow(x){
   }, 1)
   return total
 }
+
+// Array plus array
+function arrayPlusArray(arr1, arr2) {
+  let sum1 = arr1.reduce((acc,c)=>{
+    return c + acc
+  },0)
+  let sum2 = arr2.reduce((acc,c)=>{
+    return c + acc
+  },0)
+  return sum1+sum2
+}
