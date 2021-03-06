@@ -371,3 +371,11 @@ function maps(x){
   let doubleX = x.map(x=>x*2)
   return doubleX
 }
+
+// Reduce but Grow
+function grow(x){
+  let total = x.reduce((acc, c)=>{
+    return c * acc
+  }, 1)
+  return total
+}
