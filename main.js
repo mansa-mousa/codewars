@@ -356,3 +356,12 @@ function findNeedle(haystack) {
   const needle = haystack.indexOf("needle")
   return `found the needle at position ${needle}`
 }
+
+// Count the Monkeys!
+function monkeyCount(n) {
+  let count = []
+  for(let i = 1; i <= n; i++){
+    count.push(i)
+  }
+  return count
+}
