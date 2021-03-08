@@ -350,3 +350,9 @@ function countSheeps(arrayOfSheep) {
 function digitize(n) {
   return String(n).split('').reverse().map(x=>Number(x))
 }
+
+// A Needle in the Haystack
+function findNeedle(haystack) {
+  const needle = haystack.indexOf("needle")
+  return `found the needle at position ${needle}`
+}
