@@ -345,3 +345,8 @@ function countSheeps(arrayOfSheep) {
   })
   return counter
 }
+
+// Convert number to reversed array of digits
+function digitize(n) {
+  return String(n).split('').reverse().map(x=>Number(x))
+}
