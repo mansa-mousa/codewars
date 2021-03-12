@@ -197,3 +197,12 @@ function numberToString(num) {
 function solution(str){
   return str.split('').reverse().join('')
 }
+
+// Even or Odd
+function even_or_odd(number) {
+  if(Number(number) % 2 === 0){
+    return "Even"
+  }else{
+    return "Odd"
+  }
+}
