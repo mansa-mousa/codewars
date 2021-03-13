@@ -192,3 +192,8 @@ function getCount(str) {
 function numberToString(num) {
   return num.toString()
 }
+
+// Reversed Strings
+function solution(str){
+  return str.split('').reverse().join('')
+}
