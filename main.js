@@ -187,3 +187,8 @@ function getCount(str) {
   }
   return vowelsCount;
 }
+
+// Convert a Number to a String!
+function numberToString(num) {
+  return num.toString()
+}
