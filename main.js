@@ -167,3 +167,11 @@ let isSquare = function(n){
 function noSpace(x){
   return x.split(" ").join("")
  }
+
+//  Is he gonna survive?
+function hero(bullets, dragons){
+  if(bullets >= dragons*2){
+    return true
+  }else{
+return false}
+}
