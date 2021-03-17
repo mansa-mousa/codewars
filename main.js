@@ -162,3 +162,8 @@ let isSquare = function(n){
   return true}else{
   return false}
 }
+
+// Remove String Spaces
+function noSpace(x){
+  return x.split(" ").join("")
+ }
