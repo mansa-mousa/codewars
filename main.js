@@ -155,3 +155,10 @@ function opposite(number) {
   number = number *(-1)
   return number
 }
+
+// You're a square!
+let isSquare = function(n){
+  if(Math.sqrt(n) % 1 === 0){
+  return true}else{
+  return false}
+}
