@@ -150,3 +150,8 @@ function litres(time) {
   return Math.floor(time/2)
 }
 
+// Opposite number
+function opposite(number) {
+  number = number *(-1)
+  return number
+}
