@@ -144,3 +144,9 @@ function sumTwoSmallestNumbers(numbers) {
 function descendingOrder(n){
   return parseInt(n.toString().split('').sort().reverse().join(''))
 }
+
+// Keep Hydrated!
+function litres(time) {
+  return Math.floor(time/2)
+}
+
