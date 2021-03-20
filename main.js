@@ -139,3 +139,8 @@ function sumTwoSmallestNumbers(numbers) {
   numbers.sort(((a,b)=>a-b)) 
    return numbers[0]+numbers[1]
 }
+
+// Descending Order
+function descendingOrder(n){
+  return parseInt(n.toString().split('').sort().reverse().join(''))
+}
