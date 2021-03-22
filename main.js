@@ -127,3 +127,10 @@ function getAverage(marks){
     let mean = sum / marks.length
   return Math.floor(mean)
 }
+
+// Sum The Strings
+function sumStr(a,b) {
+  let sum = Number(a)+Number(b)
+  return sum.toString()
+}
+
