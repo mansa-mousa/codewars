@@ -117,3 +117,13 @@ function bonusTime(salary, bonus) {
 function fixTheMeerkat(arr) {
   return arr.reverse()
  }
+
+//  Get the mean of an array
+function getAverage(marks){
+  let sum = 0
+  marks.forEach((x) => {
+    sum += x
+  })
+    let mean = sum / marks.length
+  return Math.floor(mean)
+}
