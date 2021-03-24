@@ -112,3 +112,8 @@ const solve = (x, y) => x/y
 function bonusTime(salary, bonus) {
   return (bonus == true) ? "\u00A3"+salary*10 : "\u00A3"+salary
  }
+
+//  My head is at the wrong end!
+function fixTheMeerkat(arr) {
+  return arr.reverse()
+ }
