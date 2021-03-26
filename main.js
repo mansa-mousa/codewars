@@ -107,3 +107,8 @@ function findDifference(a, b) {
 
 // Incorrect division method
 const solve = (x, y) => x/y
+
+// Do I get a bonus?
+function bonusTime(salary, bonus) {
+  return (bonus == true) ? "\u00A3"+salary*10 : "\u00A3"+salary
+ }
