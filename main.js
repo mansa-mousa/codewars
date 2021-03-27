@@ -104,3 +104,6 @@ function highAndLow(numbers){
 function findDifference(a, b) {
   return Math.abs(a.reduce((acc,c)=> acc * c,1) - b.reduce((acc,c)=> acc * c,1))
 }
+
+// Incorrect division method
+const solve = (x, y) => x/y
