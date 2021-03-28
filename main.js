@@ -99,3 +99,8 @@ function highAndLow(numbers){
   let highestLowest = sorted[sorted.length-1] + " " +sorted[0]
   return highestLowest.toString()
 }
+
+// Difference of Volumes of Cuboids
+function findDifference(a, b) {
+  return Math.abs(a.reduce((acc,c)=> acc * c,1) - b.reduce((acc,c)=> acc * c,1))
+}
