@@ -91,3 +91,11 @@ function findNextSquare(sq) {
     return -1
   }
 }
+
+// Highest and Lowest
+function highAndLow(numbers){
+  let compareNumbers=(a,b)=>{return a-b}
+  let sorted = numbers.split(' ').sort(compareNumbers)
+  let highestLowest = sorted[sorted.length-1] + " " +sorted[0]
+  return highestLowest.toString()
+}
