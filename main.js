@@ -82,3 +82,12 @@ return  s.length % 2 == 0 ? s.charAt((s.length/2)-1)+(s.charAt(s.length/2)) : s.
 function disemvowel(str) {
   return str.replace(/[aeiou]/gi,'')
 }
+
+// Find the next perfect square!
+function findNextSquare(sq) {
+  if(Number.isInteger(Math.pow(Math.sqrt(sq)+1,2))){
+    return Math.pow(Math.sqrt(sq)+1,2)
+  }else{
+    return -1
+  }
+}
