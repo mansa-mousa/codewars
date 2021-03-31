@@ -77,3 +77,8 @@ function filter_list(l) {
 {
 return  s.length % 2 == 0 ? s.charAt((s.length/2)-1)+(s.charAt(s.length/2)) : s.charAt(s.length/2)
 }
+
+// Disemvowel Trolls
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi,'')
+}
