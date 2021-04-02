@@ -449,3 +449,12 @@ function array(arr){
 function superSize(num){
   return Number(num.toString().split('').sort((a,b)=>b-a).join(''))
 }
+
+// Filling an array (part 1)
+function arr(num){
+  let newArr = []
+  for(let i = 0; i < num; i++){
+    newArr.push(i)
+  }
+  return newArr
+}
