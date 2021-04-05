@@ -55,3 +55,9 @@ function filter_list(l) {
     })
     return realFriends
   }
+
+  // String ends with?
+  function solution(str, ending){
+    return str.endsWith(ending)
+   }
+   
