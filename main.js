@@ -44,3 +44,14 @@ function filter_list(l) {
     return str.slice(1,str.length-1)
    
    }
+
+  //  Friend or Foe?
+  function friend(friends){
+    let realFriends = []
+    friends.forEach((x)=>{
+      if(x.length == 4){
+        realFriends.push(x)
+      }
+    })
+    return realFriends
+  }
