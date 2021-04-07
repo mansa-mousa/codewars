@@ -14,3 +14,13 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
     return enteredCode === correctCode && currentDate >= expirationDate
   }
   
+// Return a new array with the strings filtered out
+function filter_list(l) {
+    let integer = []
+    l.forEach((x)=>{
+      if(typeof x === 'number'){
+        integer.push(x)
+      }
+    })
+    return integer
+  }
