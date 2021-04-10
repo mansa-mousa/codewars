@@ -35,6 +35,12 @@ function filter_list(l) {
   }
 
   // Convert a String to a Number!
-  var stringToNumber = function(str){
+  let stringToNumber = function(str){
     return Number(str)
   }
+
+  // Remove First and Last Character
+  function removeChar(str){
+    return str.slice(1,str.length-1)
+   
+   }
