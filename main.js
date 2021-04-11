@@ -33,3 +33,8 @@ function filter_list(l) {
     return `${hours} hour(s) and ${minutes} minute(s)`
   
   }
+
+  // Convert a String to a Number!
+  var stringToNumber = function(str){
+    return Number(str)
+  }
