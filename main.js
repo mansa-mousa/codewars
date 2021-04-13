@@ -212,3 +212,7 @@ function multiply(a, b){
   return a * b
  }
  
+//  Filter Long Words
+ function filterLongWords(sentence, n) {
+  return sentence.split(' ').filter(x => x.length > n)
+}
