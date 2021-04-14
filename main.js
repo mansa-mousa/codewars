@@ -216,3 +216,13 @@ function multiply(a, b){
  function filterLongWords(sentence, n) {
   return sentence.split(' ').filter(x => x.length > n)
 }
+
+// Square Every Digit
+function squareDigits(num){
+  let concat = ''
+  num.toString().split('').forEach((x) => {
+    concat += x*x
+    
+  })
+  return Number(concat)
+}
