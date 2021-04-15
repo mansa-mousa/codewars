@@ -231,3 +231,11 @@ function squareDigits(num){
 function reverseWords(str) {
   return str.split('').reverse().join('').split(' ').reverse().join(' ')
 }
+
+// Filter
+function getEvenNumbers(numbersArray){
+  let result = numbersArray.filter(numbersArray => 
+    numbersArray % 2 == 0
+  )
+  return result
+}
