@@ -226,3 +226,8 @@ function squareDigits(num){
   })
   return Number(concat)
 }
+
+// Reverse words
+function reverseWords(str) {
+  return str.split('').reverse().join('').split(' ').reverse().join(' ')
+}
