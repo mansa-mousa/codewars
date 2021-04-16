@@ -284,7 +284,19 @@ function greet(name){
 
 // Abbreviate a Two Word Name
 function abbrevName(name){
-
   return name.match(/[A-Z]/g).join('.')
+}
 
+// The Wide-Mouthed frog!
+function mouthSize(animal) {
+  if(animal == 'alligator' || animal == 'ALLIGATOR'){
+    return 'small'
+  }else{
+    return 'wide'
+  }
+}
+
+// Template Strings
+var TempleStrings = function(obj, feature) {
+  return `${obj} are ${feature}`
 }
