@@ -334,3 +334,14 @@ function sum (numbers) {
  return c + acc
   },0)
 };
+
+// Counting sheep...
+function countSheeps(arrayOfSheep) {
+  let counter = 0
+  arrayOfSheep.forEach((x)=>{
+    if(x){
+      counter += 1
+    }
+  })
+  return counter
+}
