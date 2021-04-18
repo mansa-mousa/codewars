@@ -281,3 +281,10 @@ function apple(x){
 function greet(name){
   return `Hello, ${name} how are you doing today?`
 }
+
+// Abbreviate a Two Word Name
+function abbrevName(name){
+
+  return name.match(/[A-Z]/g).join('.')
+
+}
