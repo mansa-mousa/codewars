@@ -325,5 +325,12 @@ function squareSum(numbers){
 function smash (words) {
   "use strict";
   return words.join(' ')
-  
+};
+
+// Sum Arrays
+function sum (numbers) {
+  "use strict";
+ return numbers.reduce((acc, c) => {
+ return c + acc
+  },0)
 };
