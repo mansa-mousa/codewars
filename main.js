@@ -271,3 +271,8 @@ function fakeBin(x){
   dish.split('')
   return (beast[0] === dish[0]) && (beast[beast.length-1] === dish[dish.length-1]) ? true : false
 }
+
+// Alan Partridge II - Apple Turnover
+function apple(x){
+  return x*x >= 1000 ? "It's hotter than the sun!!" : "Help yourself to a honeycomb Yorkie for the glovebox."
+}
