@@ -264,3 +264,10 @@ function twoSort(s) {
 function fakeBin(x){
   return x.replace(/[1-4]/g, 0).replace(/[5-9]/g, 1)
  }
+
+//  The Feast of Many Beasts
+ function feast(beast, dish) {
+  beast.split('')
+  dish.split('')
+  return (beast[0] === dish[0]) && (beast[beast.length-1] === dish[dish.length-1]) ? true : false
+}
