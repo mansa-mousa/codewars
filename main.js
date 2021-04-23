@@ -254,3 +254,8 @@ function isLockNessMonster(s) {
 function check(a, x) {
   return a.includes(x) ? true : false
 }
+
+Sort and Star
+function twoSort(s) {
+  return s.sort()[0].split('').join('***')
+}
