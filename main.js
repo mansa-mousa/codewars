@@ -249,3 +249,8 @@ function nameShuffler(str){
 function isLockNessMonster(s) {
   return s.includes("tree fiddy", "3.50", "three fifty")
 }
+
+// You only need one
+function check(a, x) {
+  return a.includes(x) ? true : false
+}
