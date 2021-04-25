@@ -244,3 +244,8 @@ function getEvenNumbers(numbersArray){
 function nameShuffler(str){
   return str.split(' ').reverse().join(' ')
 }
+
+// A Strange Trip to the Market
+function isLockNessMonster(s) {
+  return s.includes("tree fiddy", "3.50", "three fifty")
+}
