@@ -239,3 +239,8 @@ function getEvenNumbers(numbersArray){
   )
   return result
 }
+
+// Name Shuffler
+function nameShuffler(str){
+  return str.split(' ').reverse().join(' ')
+}
