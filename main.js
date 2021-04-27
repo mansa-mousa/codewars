@@ -320,3 +320,10 @@ function squareSum(numbers){
   })
   return total
 }
+
+// Sentence Smash
+function smash (words) {
+  "use strict";
+  return words.join(' ')
+  
+};
