@@ -311,3 +311,12 @@ function positiveSum(arr) {
   })
   return sum
 }
+
+// Square(n) Sum
+function squareSum(numbers){
+  let total = 0
+  numbers.forEach((x) => {
+    total += x*x
+  })
+  return total
+}
