@@ -365,3 +365,9 @@ function monkeyCount(n) {
   }
   return count
 }
+
+// Lost Without a Map
+function maps(x){
+  let doubleX = x.map(x=>x*2)
+  return doubleX
+}
