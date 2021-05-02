@@ -390,3 +390,10 @@ function arrayPlusArray(arr1, arr2) {
   },0)
   return sum1+sum2
 }
+
+// Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height
+  }
+}
