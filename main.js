@@ -405,3 +405,11 @@ function swapValues(arr) {
     arr[1] = temp
   return arr
 }
+
+// Find numbers which are divisible by given number
+function divisibleBy(numbers, divisor){
+  let arr = numbers.filter((x)=>{
+    return x % divisor == 0
+  })
+return arr
+}
