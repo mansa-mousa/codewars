@@ -434,3 +434,8 @@ function arrayMadness(a, b) {
     b.reduce((x,y)=>{
     return x + y*y*y},0)
 }
+
+// No Loops 2 - You only need one
+function check(a,x){
+  return a.includes(x)
+};
