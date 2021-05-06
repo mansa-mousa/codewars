@@ -255,7 +255,7 @@ function check(a, x) {
   return a.includes(x) ? true : false
 }
 
-Sort and Star
+// Sort and Star
 function twoSort(s) {
   return s.sort()[0].split('').join('***')
 }
@@ -443,4 +443,9 @@ function check(a,x){
 // Remove First and Last Character Part Two
 function array(arr){
   return arr.split(',').slice(1, -1).join(' ') || null
+}
+
+// noobCode 01: SUPERSIZE ME.... or rather, this integer!
+function superSize(num){
+  return Number(num.toString().split('').sort((a,b)=>b-a).join(''))
 }
