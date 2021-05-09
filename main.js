@@ -458,3 +458,16 @@ function arr(num){
   }
   return newArr
 }
+
+// To square(root) or not to square(root)
+function squareOrSquareRoot(array) {
+  let newArray = []
+  array.forEach((x)=>{
+    if(Number.isInteger(Math.sqrt(x))){
+      newArray.push(Math.sqrt(x))
+    }else{
+      newArray.push(x*x)
+    }
+  })
+  return newArray
+}
