@@ -492,3 +492,14 @@ function multipleOfIndex(array) {
   })
   return newArray
 }
+
+// Removing Elements
+function removeEveryOther(arr){
+  let newArr =[]
+  arr.forEach((x,i)=>{
+    if(i % 2 == 0){
+      newArr.push(x)
+    }
+  })
+  return newArr
+}
