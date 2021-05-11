@@ -481,3 +481,14 @@ function differenceInAges(ages){
   newArray.push(ages[0], ages[ages.length-1], ages[ages.length-1]-ages[0])
   return newArray
 }
+
+// Multiple of index
+function multipleOfIndex(array) {
+  let newArray = []
+    array.forEach((x,i)=>{
+      if(x % i === 0){
+        newArray.push(x)
+    }
+  })
+  return newArray
+}
