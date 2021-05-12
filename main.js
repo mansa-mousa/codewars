@@ -503,3 +503,9 @@ function removeEveryOther(arr){
   })
   return newArr
 }
+
+// I love you, a little , a lot, passionately ... not at all
+function howMuchILoveYou(nbPetals) {
+  const love = ['not at all', 'I love you', 'a little', 'a lot', 'passionately', 'madly']
+  return love[nbPetals % 6]
+}
