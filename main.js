@@ -547,3 +547,10 @@ function uefaEuro2016(teams, scores){
 function stringToArray(string){
 	return string.split(' ')
 }
+
+// Sum Mixed Array
+function sumMix(x){
+  return x.map(x => Number(x)).reduce((acc, c) => {
+    return acc + c
+  },0)
+ }
