@@ -542,3 +542,8 @@ function uefaEuro2016(teams, scores){
     return `At match ${teams[0]} - ${teams[1]}, teams played draw.`
   }
 }
+
+// Convert a string to an array
+function stringToArray(string){
+	return string.split(' ')
+}
