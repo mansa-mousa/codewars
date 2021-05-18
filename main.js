@@ -597,3 +597,20 @@ function twoOldestAges(ages){
 function sortByLength (array) {
   return array.sort((a,b) => a.length - b.length)
 };
+
+function fizzbuzz(n)
+{
+  let buzzFizz = []
+  for(let i = 1; i <= n; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+      buzzFizz.push("FizzBuzz")
+    }else if(i % 3 == 0){
+      buzzFizz.push("Fizz")
+    }else if(i % 5 == 0){
+      buzzFizz.push("Buzz")
+    }else{
+      buzzFizz.push(i)
+    }
+  }
+  return buzzFizz
+}
