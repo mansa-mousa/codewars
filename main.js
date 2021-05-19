@@ -592,3 +592,8 @@ function twoOldestAges(ages){
   ages.sort((a,b)=>a-b)
   return ages.slice(-2)
 }
+
+// Sort array by string length
+function sortByLength (array) {
+  return array.sort((a,b) => a.length - b.length)
+};
