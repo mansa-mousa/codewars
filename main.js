@@ -586,3 +586,9 @@ function noOdds( values ){
   })
   return noOdds
 }
+
+// Two Oldest Ages
+function twoOldestAges(ages){
+  ages.sort((a,b)=>a-b)
+  return ages.slice(-2)
+}
