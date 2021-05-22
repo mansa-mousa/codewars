@@ -575,3 +575,14 @@ function removeSmallest(numbers) {
   let indexMin = numbers.indexOf(Math.min(...numbers))
   return [...numbers.slice(0, indexMin), ...numbers.slice(indexMin+1)]
 }
+
+// No oddities here
+function noOdds( values ){
+  let noOdds = []
+  values.forEach((x)=>{
+    if(x % 2 == 0){
+      noOdds.push(x)
+    }
+  })
+  return noOdds
+}
