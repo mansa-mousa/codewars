@@ -564,3 +564,8 @@ function sumMix(x){
 function all( arr, fun ){
   return arr.every(fun)
 }
+
+// Odd or Even?
+function oddOrEven(array) {
+  return array.reduce((acc,c) => acc + c, 0) % 2 == 0 ? "even" : "odd"
+}
