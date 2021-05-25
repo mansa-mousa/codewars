@@ -569,3 +569,9 @@ function all( arr, fun ){
 function oddOrEven(array) {
   return array.reduce((acc,c) => acc + c, 0) % 2 == 0 ? "even" : "odd"
 }
+
+// Remove the minimum
+function removeSmallest(numbers) {
+  let indexMin = numbers.indexOf(Math.min(...numbers))
+  return [...numbers.slice(0, indexMin), ...numbers.slice(indexMin+1)]
+}
