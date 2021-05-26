@@ -614,3 +614,8 @@ function fizzbuzz(n)
   }
   return buzzFizz
 }
+
+// Maximum Multiple
+function maxMultiple(divisor, bound){
+  return bound - (bound % divisor)
+}
